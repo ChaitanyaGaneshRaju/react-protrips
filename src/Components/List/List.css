@@ -1,0 +1,19 @@
+#list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+#list>table{
+    margin:2em;
+}
+
+#list > table > tbody > tr > td {
+  padding: 0em 2em 0em 2em;
+}
+
+#list > table > tbody > tr:nth-child(1) > * {
+  border-bottom: 1px solid white;
+}

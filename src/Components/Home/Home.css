@@ -1,0 +1,27 @@
+#home{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color:white
+}
+#total-trips{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text{
+    font-size:3em;
+}
+
+.text > sub{
+    font-size:0.5em;
+}
+
+#individual-trips{
+    display:flex;
+    flex-direction:row;
+    column-gap:3em;
+}

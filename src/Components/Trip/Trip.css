@@ -1,0 +1,27 @@
+#trip{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color:white;
+}
+
+#trip > form{
+    display:flex;
+    flex-direction: column;
+    row-gap:1em;
+}
+
+#trip > form > input, #trip > form > select{
+    border:2px solid white;
+    color:white;
+    height:2em;
+    background-color: transparent;
+}
+
+#trip > form > input[type=submit]{
+    color:white !important;
+    width:50%;
+    align-self: center;
+}

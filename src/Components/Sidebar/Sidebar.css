@@ -1,0 +1,18 @@
+#side-bar{
+    display:flex;
+    flex-direction: row;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height:100vh;
+    font-size: 2em;
+    row-gap: 1em;
+}
+
+#nav-bar > *{
+    color:white
+}
